@@ -5,5 +5,6 @@ function errLogger(text)
     %write a line of text
     fprintf(fid, txt);
     %close file
+	%make achange to test the github repository
     fclose(fid);
 end
