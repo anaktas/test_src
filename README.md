@@ -7,7 +7,7 @@ The general title of my thesis is "Visualization of numerical analysis methods f
 I implement this project on Matlab 2010b. The application will be used as an education tool for the relevant 
 course "Numerical Analysis" of Department of Informatics.
 
-I have already implemented the three basic algorithms were are demonstrated in the relevant course:
+I have already implemented the three basic algorithms which are demonstrated in the relevant course:
 1. Boltzano method
 2. Newton-Raphson method
 3. Regula Falsi method
