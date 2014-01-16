@@ -1,0 +1,418 @@
+
+10-Jun-2013 21:57:32...The application was ended.
+10-Jun-2013 22:03:23...The application was started.
+10-Jun-2013 22:03:37...The Newton-Raphson method start to excecute.
+10-Jun-2013 22:03:37...The information box was updated.
+10-Jun-2013 22:03:46...The information box was updated.
+10-Jun-2013 22:03:46...The information box was updated.
+10-Jun-2013 22:03:46...The information box was updated.
+10-Jun-2013 22:03:46...The information box was updated.
+10-Jun-2013 22:03:46...The Newton-Raphson method ended.
+10-Jun-2013 22:04:06...The application was ended.
+10-Jun-2013 22:05:42...The application was started.
+10-Jun-2013 22:05:53...The boltzano method start to excecute.
+10-Jun-2013 22:05:53...The information box was updated.
+10-Jun-2013 22:05:59...The information box was updated.
+10-Jun-2013 22:05:59...The information box was updated.
+10-Jun-2013 22:05:59...The information box was updated.
+10-Jun-2013 22:05:59...The boltzano method ended.
+10-Jun-2013 22:06:10...The application was ended.
+10-Jun-2013 22:07:31...The application was started.
+10-Jun-2013 22:07:41...The regula falsi method start to excecute.
+10-Jun-2013 22:07:41...The information box was updated.
+10-Jun-2013 22:07:56...The information box was updated.
+10-Jun-2013 22:07:56...The information box was updated.
+10-Jun-2013 22:07:56...The information box was updated.
+10-Jun-2013 22:07:56...The regula falsi method ended.
+10-Jun-2013 22:08:02...The application was ended.
+10-Jun-2013 22:08:36...The application was started.
+10-Jun-2013 22:09:00...The application was ended.
+10-Jun-2013 22:10:04...The application was started.
+10-Jun-2013 22:10:15...The regula falsi method start to excecute.
+10-Jun-2013 22:10:15...The information box was updated.
+10-Jun-2013 22:10:30...The information box was updated.
+10-Jun-2013 22:10:30...The information box was updated.
+10-Jun-2013 22:10:30...The information box was updated.
+10-Jun-2013 22:10:30...The regula falsi method ended.
+10-Jun-2013 22:10:46...The application was ended.
+10-Jun-2013 22:28:32...The application was started.
+10-Jun-2013 22:28:44...The regula falsi method start to excecute.
+10-Jun-2013 22:28:44...The information box was updated.
+10-Jun-2013 22:28:59...The information box was updated.
+10-Jun-2013 22:28:59...The information box was updated.
+10-Jun-2013 22:28:59...The information box was updated.
+10-Jun-2013 22:28:59...The regula falsi method ended.
+10-Jun-2013 22:31:01...The application was ended.
+12-Jun-2013 19:33:39...The application was started.
+12-Jun-2013 19:33:56...The boltzano method start to excecute.
+12-Jun-2013 19:33:56...The information box was updated.
+12-Jun-2013 19:34:05...The information box was updated.
+12-Jun-2013 19:34:05...The information box was updated.
+12-Jun-2013 19:34:05...The information box was updated.
+12-Jun-2013 19:34:05...The boltzano method ended.
+12-Jun-2013 19:34:19...The application was ended.
+12-Jun-2013 19:34:32...The application was started.
+12-Jun-2013 19:34:40...The boltzano method start to excecute.
+12-Jun-2013 19:34:40...The information box was updated.
+12-Jun-2013 19:34:46...The information box was updated.
+12-Jun-2013 19:34:46...The information box was updated.
+12-Jun-2013 19:34:46...The information box was updated.
+12-Jun-2013 19:34:46...The boltzano method ended.
+12-Jun-2013 19:34:49...The application was ended.
+19-Jun-2013 12:02:35...The application was started.
+19-Jun-2013 12:14:52...The application was started.
+19-Jun-2013 12:15:08...The Newton-Raphson method start to excecute.
+19-Jun-2013 12:15:08...The information box was updated.
+19-Jun-2013 12:15:20...The information box was updated.
+19-Jun-2013 12:15:20...The information box was updated.
+19-Jun-2013 12:15:20...The information box was updated.
+19-Jun-2013 12:15:20...The information box was updated.
+19-Jun-2013 12:15:20...The Newton-Raphson method ended.
+19-Jun-2013 12:15:25...The information box has been cleaned.
+19-Jun-2013 12:15:31...The regula falsi method start to excecute.
+19-Jun-2013 12:15:31...The information box was updated.
+19-Jun-2013 12:15:35...The information box was updated.
+19-Jun-2013 12:15:35...The information box was updated.
+19-Jun-2013 12:15:35...The information box was updated.
+19-Jun-2013 12:15:35...The regula falsi method ended.
+19-Jun-2013 12:15:40...The Newton-Raphson method start to excecute.
+19-Jun-2013 12:15:40...The information box was updated.
+19-Jun-2013 12:15:46...The information box was updated.
+19-Jun-2013 12:15:46...The information box was updated.
+19-Jun-2013 12:15:46...The information box was updated.
+19-Jun-2013 12:15:46...The information box was updated.
+19-Jun-2013 12:15:46...The Newton-Raphson method ended.
+19-Jun-2013 12:15:51...The information box has been cleaned.
+19-Jun-2013 12:16:14...The application was ended.
+19-Jun-2013 12:18:24...The application was started.
+19-Jun-2013 12:18:59...The application was ended.
+19-Jun-2013 23:26:49...The application was started.
+19-Jun-2013 23:27:28...The boltzano method start to excecute.
+19-Jun-2013 23:27:28...The information box was updated.
+19-Jun-2013 23:27:33...The information box was updated.
+19-Jun-2013 23:27:33...The information box was updated.
+19-Jun-2013 23:27:33...The information box was updated.
+19-Jun-2013 23:27:33...The boltzano method ended.
+19-Jun-2013 23:27:37...The regula falsi method start to excecute.
+19-Jun-2013 23:27:37...The information box was updated.
+19-Jun-2013 23:27:41...The information box was updated.
+19-Jun-2013 23:27:41...The information box was updated.
+19-Jun-2013 23:27:41...The information box was updated.
+19-Jun-2013 23:27:41...The regula falsi method ended.
+19-Jun-2013 23:27:48...The Newton-Raphson method start to excecute.
+19-Jun-2013 23:27:48...The information box was updated.
+19-Jun-2013 23:27:54...The information box was updated.
+19-Jun-2013 23:27:54...The information box was updated.
+19-Jun-2013 23:27:54...The information box was updated.
+19-Jun-2013 23:27:54...The information box was updated.
+19-Jun-2013 23:27:54...The Newton-Raphson method ended.
+19-Jun-2013 23:28:29...The information box has been cleaned.
+19-Jun-2013 23:28:51...The application was ended.
+19-Jun-2013 23:29:57...The application was started.
+19-Jun-2013 23:30:08...The Newton-Raphson method start to excecute.
+19-Jun-2013 23:30:08...The information box was updated.
+19-Jun-2013 23:30:15...The information box was updated.
+19-Jun-2013 23:30:15...The information box was updated.
+19-Jun-2013 23:30:15...The information box was updated.
+19-Jun-2013 23:30:15...The information box was updated.
+19-Jun-2013 23:30:15...The Newton-Raphson method ended.
+19-Jun-2013 23:30:35...The application was ended.
+22-Jul-2013 23:11:51...The application was started.
+22-Jul-2013 23:12:20...The boltzano method start to excecute.
+22-Jul-2013 23:12:20...The information box was updated.
+22-Jul-2013 23:12:28...The information box was updated.
+22-Jul-2013 23:12:28...The information box was updated.
+22-Jul-2013 23:12:28...The information box was updated.
+22-Jul-2013 23:12:28...The boltzano method ended.
+22-Jul-2013 23:12:52...The application was ended.
+07-Aug-2013 13:09:24...The application was started.
+07-Aug-2013 13:54:29...The application was started.
+07-Aug-2013 13:56:10...The application was started.
+07-Aug-2013 13:57:09...The application was ended.
+12-Aug-2013 14:34:48...The application was started.
+12-Aug-2013 14:35:26...The boltzano method start to excecute.
+12-Aug-2013 14:35:26...The information box was updated.
+12-Aug-2013 14:36:10...The information box has been cleaned.
+12-Aug-2013 14:36:23...The boltzano method start to excecute.
+12-Aug-2013 14:36:24...The information box was updated.
+12-Aug-2013 14:38:03...The boltzano method start to excecute.
+12-Aug-2013 14:38:03...The information box was updated.
+12-Aug-2013 14:38:11...The regula falsi method start to excecute.
+12-Aug-2013 14:38:11...The information box was updated.
+12-Aug-2013 14:41:47...The application was started.
+12-Aug-2013 14:42:03...The boltzano method start to excecute.
+12-Aug-2013 14:42:03...The information box was updated.
+12-Aug-2013 14:42:26...The boltzano method start to excecute.
+12-Aug-2013 14:42:26...The information box was updated.
+12-Aug-2013 14:42:41...The application was ended.
+12-Aug-2013 14:42:45...The application was started.
+12-Aug-2013 14:43:29...The boltzano method start to excecute.
+12-Aug-2013 14:43:30...The information box was updated.
+12-Aug-2013 14:43:39...The application was ended.
+12-Aug-2013 14:45:07...The application was started.
+12-Aug-2013 14:45:21...The boltzano method start to excecute.
+12-Aug-2013 14:45:21...The information box was updated.
+12-Aug-2013 14:47:04...The application was ended.
+12-Aug-2013 14:47:08...The application was started.
+12-Aug-2013 14:47:27...The boltzano method start to excecute.
+12-Aug-2013 14:47:27...The information box was updated.
+12-Aug-2013 14:47:33...The application was ended.
+12-Aug-2013 14:48:34...The application was started.
+12-Aug-2013 14:49:12...The boltzano method start to excecute.
+12-Aug-2013 14:49:12...The information box was updated.
+12-Aug-2013 14:49:28...The application was ended.
+12-Aug-2013 22:18:40...The application was started.
+12-Aug-2013 22:18:45...The application was ended.
+20-Aug-2013 15:06:46...The application was started.
+20-Aug-2013 15:07:00...The boltzano method start to excecute.
+20-Aug-2013 15:07:00...The information box was updated.
+20-Aug-2013 15:08:04...The application was ended.
+20-Aug-2013 15:13:00...The application was started.
+20-Aug-2013 15:13:06...The boltzano method start to excecute.
+20-Aug-2013 15:13:06...The information box was updated.
+20-Aug-2013 15:14:30...The application was ended.
+20-Aug-2013 15:19:41...The application was started.
+20-Aug-2013 15:19:47...The boltzano method start to excecute.
+20-Aug-2013 15:19:47...The information box was updated.
+20-Aug-2013 15:20:13...The application was ended.
+20-Aug-2013 15:23:13...The application was started.
+20-Aug-2013 15:23:18...The boltzano method start to excecute.
+20-Aug-2013 15:23:18...The information box was updated.
+20-Aug-2013 15:25:53...The application was ended.
+20-Aug-2013 15:26:08...The application was started.
+20-Aug-2013 15:26:23...The boltzano method start to excecute.
+20-Aug-2013 15:26:23...The information box was updated.
+20-Aug-2013 15:26:28...The information box was updated.
+20-Aug-2013 15:26:29...The information box was updated.
+20-Aug-2013 15:26:29...The information box was updated.
+20-Aug-2013 15:26:29...The boltzano method ended.
+20-Aug-2013 15:27:18...The boltzano method start to excecute.
+20-Aug-2013 15:27:19...The information box was updated.
+20-Aug-2013 15:27:22...The information box was updated.
+20-Aug-2013 15:27:22...The information box was updated.
+20-Aug-2013 15:27:22...The information box was updated.
+20-Aug-2013 15:27:22...The boltzano method ended.
+20-Aug-2013 15:27:29...The boltzano method start to excecute.
+20-Aug-2013 15:27:29...The information box was updated.
+20-Aug-2013 15:27:34...The information box was updated.
+20-Aug-2013 15:27:34...The information box was updated.
+20-Aug-2013 15:27:34...The information box was updated.
+20-Aug-2013 15:27:34...The boltzano method ended.
+20-Aug-2013 15:27:48...The boltzano method start to excecute.
+20-Aug-2013 15:27:48...The information box was updated.
+20-Aug-2013 15:27:54...The information box was updated.
+20-Aug-2013 15:27:54...The information box was updated.
+20-Aug-2013 15:27:54...The information box was updated.
+20-Aug-2013 15:27:54...The boltzano method ended.
+20-Aug-2013 15:28:02...The regula falsi method start to excecute.
+20-Aug-2013 15:28:02...The information box was updated.
+20-Aug-2013 15:28:07...The information box was updated.
+20-Aug-2013 15:28:07...The information box was updated.
+20-Aug-2013 15:28:07...The information box was updated.
+20-Aug-2013 15:28:07...The regula falsi method ended.
+20-Aug-2013 15:28:10...The Newton-Raphson method start to excecute.
+20-Aug-2013 15:28:11...The information box was updated.
+20-Aug-2013 15:28:21...The information box was updated.
+20-Aug-2013 15:28:21...The information box was updated.
+20-Aug-2013 15:28:21...The information box was updated.
+20-Aug-2013 15:28:21...The information box was updated.
+20-Aug-2013 15:28:21...The Newton-Raphson method ended.
+20-Aug-2013 15:28:35...The application was ended.
+20-Aug-2013 15:31:47...The application was started.
+20-Aug-2013 15:32:00...The Newton-Raphson method start to excecute.
+20-Aug-2013 15:32:00...The information box was updated.
+20-Aug-2013 15:32:07...The information box was updated.
+20-Aug-2013 15:32:07...The information box was updated.
+20-Aug-2013 15:32:07...The information box was updated.
+20-Aug-2013 15:32:07...The information box was updated.
+20-Aug-2013 15:32:07...The Newton-Raphson method ended.
+20-Aug-2013 15:32:14...The regula falsi method start to excecute.
+20-Aug-2013 15:32:15...The information box was updated.
+20-Aug-2013 15:32:19...The information box was updated.
+20-Aug-2013 15:32:19...The information box was updated.
+20-Aug-2013 15:32:20...The information box was updated.
+20-Aug-2013 15:32:20...The regula falsi method ended.
+20-Aug-2013 15:32:26...The boltzano method start to excecute.
+20-Aug-2013 15:32:27...The information box was updated.
+20-Aug-2013 15:32:31...The information box was updated.
+20-Aug-2013 15:32:31...The information box was updated.
+20-Aug-2013 15:32:31...The information box was updated.
+20-Aug-2013 15:32:31...The boltzano method ended.
+20-Aug-2013 15:32:47...The Newton-Raphson method start to excecute.
+20-Aug-2013 15:32:47...The information box was updated.
+20-Aug-2013 15:32:56...The information box was updated.
+20-Aug-2013 15:32:57...The information box was updated.
+20-Aug-2013 15:32:57...The information box was updated.
+20-Aug-2013 15:32:57...The information box was updated.
+20-Aug-2013 15:32:57...The Newton-Raphson method ended.
+20-Aug-2013 15:33:01...The Newton-Raphson method start to excecute.
+20-Aug-2013 15:33:01...The information box was updated.
+20-Aug-2013 15:33:08...The information box was updated.
+20-Aug-2013 15:33:08...The information box was updated.
+20-Aug-2013 15:33:08...The information box was updated.
+20-Aug-2013 15:33:08...The information box was updated.
+20-Aug-2013 15:33:08...The Newton-Raphson method ended.
+20-Aug-2013 15:33:10...The regula falsi method start to excecute.
+20-Aug-2013 15:33:11...The information box was updated.
+20-Aug-2013 15:33:15...The information box was updated.
+20-Aug-2013 15:33:15...The information box was updated.
+20-Aug-2013 15:33:15...The information box was updated.
+20-Aug-2013 15:33:15...The regula falsi method ended.
+20-Aug-2013 15:33:18...The regula falsi method start to excecute.
+20-Aug-2013 15:33:18...The information box was updated.
+20-Aug-2013 15:33:22...The information box was updated.
+20-Aug-2013 15:33:23...The information box was updated.
+20-Aug-2013 15:33:23...The information box was updated.
+20-Aug-2013 15:33:23...The regula falsi method ended.
+20-Aug-2013 15:34:33...The boltzano method start to excecute.
+20-Aug-2013 15:34:33...The information box was updated.
+20-Aug-2013 15:34:37...The information box was updated.
+20-Aug-2013 15:34:37...The information box was updated.
+20-Aug-2013 15:34:38...The information box was updated.
+20-Aug-2013 15:34:38...The boltzano method ended.
+20-Aug-2013 15:34:44...The boltzano method start to excecute.
+20-Aug-2013 15:34:44...The information box was updated.
+20-Aug-2013 15:34:49...The information box was updated.
+20-Aug-2013 15:34:49...The information box was updated.
+20-Aug-2013 15:34:49...The information box was updated.
+20-Aug-2013 15:34:49...The boltzano method ended.
+20-Aug-2013 15:34:52...The regula falsi method start to excecute.
+20-Aug-2013 15:34:52...The information box was updated.
+20-Aug-2013 15:34:57...The information box was updated.
+20-Aug-2013 15:34:57...The information box was updated.
+20-Aug-2013 15:34:57...The information box was updated.
+20-Aug-2013 15:34:57...The regula falsi method ended.
+20-Aug-2013 15:34:59...The Newton-Raphson method start to excecute.
+20-Aug-2013 15:34:59...The information box was updated.
+20-Aug-2013 15:35:07...The information box was updated.
+20-Aug-2013 15:35:07...The information box was updated.
+20-Aug-2013 15:35:07...The information box was updated.
+20-Aug-2013 15:35:07...The information box was updated.
+20-Aug-2013 15:35:08...The Newton-Raphson method ended.
+20-Aug-2013 15:35:18...The boltzano method start to excecute.
+20-Aug-2013 15:35:18...The information box was updated.
+20-Aug-2013 15:35:23...The information box was updated.
+20-Aug-2013 15:35:23...The information box was updated.
+20-Aug-2013 15:35:23...The information box was updated.
+20-Aug-2013 15:35:23...The boltzano method ended.
+20-Aug-2013 15:35:47...The information box has been cleaned.
+20-Aug-2013 15:35:58...The application was ended.
+20-Aug-2013 19:53:13...The application was started.
+20-Aug-2013 20:17:08...The application was started.
+20-Aug-2013 20:17:22...The boltzano method start to excecute.
+20-Aug-2013 20:17:22...The information box was updated.
+20-Aug-2013 20:17:22...The inserted function is:x^2-2
+20-Aug-2013 20:17:27...The information box was updated.
+20-Aug-2013 20:17:27...The information box was updated.
+20-Aug-2013 20:17:28...The information box was updated.
+20-Aug-2013 20:17:28...The boltzano method ended.
+20-Aug-2013 20:17:30...The regula falsi method start to excecute.
+20-Aug-2013 20:17:30...The information box was updated.
+20-Aug-2013 20:17:30...The inserted function is:x^2-2
+20-Aug-2013 20:17:35...The information box was updated.
+20-Aug-2013 20:17:35...The information box was updated.
+20-Aug-2013 20:17:35...The information box was updated.
+20-Aug-2013 20:17:35...The regula falsi method ended.
+20-Aug-2013 20:17:37...The Newton-Raphson method start to excecute.
+20-Aug-2013 20:17:37...The information box was updated.
+20-Aug-2013 20:17:37...The inserted function is:x^2-2
+20-Aug-2013 20:17:44...The information box was updated.
+20-Aug-2013 20:17:44...The information box was updated.
+20-Aug-2013 20:17:44...The information box was updated.
+20-Aug-2013 20:17:44...The information box was updated.
+20-Aug-2013 20:17:44...The Newton-Raphson method ended.
+20-Aug-2013 20:18:42...The application was ended.
+20-Aug-2013 20:31:23...The application was started.
+20-Aug-2013 20:31:33...The Newton-Raphson method start to excecute.
+20-Aug-2013 20:31:33...The information box was updated.
+20-Aug-2013 20:31:34...The inserted function is:x^2-2
+20-Aug-2013 20:31:40...The information box was updated.
+20-Aug-2013 20:31:40...The information box was updated.
+20-Aug-2013 20:31:40...The information box was updated.
+20-Aug-2013 20:31:40...The information box was updated.
+20-Aug-2013 20:31:41...The Newton-Raphson method ended.
+20-Aug-2013 20:31:44...The application was ended.
+20-Aug-2013 20:44:33...The application was started.
+20-Aug-2013 20:44:47...The Newton-Raphson method start to excecute.
+20-Aug-2013 20:44:47...The information box was updated.
+20-Aug-2013 20:44:47...The inserted function is:x^3-2
+20-Aug-2013 20:44:57...The information box was updated.
+20-Aug-2013 20:44:57...The information box was updated.
+20-Aug-2013 20:44:57...The information box was updated.
+20-Aug-2013 20:44:57...The information box was updated.
+20-Aug-2013 20:44:57...The Newton-Raphson method ended.
+20-Aug-2013 20:45:01...The regula falsi method start to excecute.
+20-Aug-2013 20:45:01...The information box was updated.
+20-Aug-2013 20:45:01...The inserted function is:x^3-2
+20-Aug-2013 20:45:16...The information box was updated.
+20-Aug-2013 20:45:16...The information box was updated.
+20-Aug-2013 20:45:16...The information box was updated.
+20-Aug-2013 20:45:16...The regula falsi method ended.
+20-Aug-2013 20:45:30...The regula falsi method start to excecute.
+20-Aug-2013 20:45:30...The information box was updated.
+20-Aug-2013 20:45:30...The inserted function is:x^3-2
+20-Aug-2013 20:45:45...The information box was updated.
+20-Aug-2013 20:45:45...The information box was updated.
+20-Aug-2013 20:45:45...The information box was updated.
+20-Aug-2013 20:45:45...The regula falsi method ended.
+20-Aug-2013 20:45:51...The boltzano method start to excecute.
+20-Aug-2013 20:45:51...The information box was updated.
+20-Aug-2013 20:45:51...The inserted function is:x^3-2
+20-Aug-2013 20:45:55...The information box was updated.
+20-Aug-2013 20:45:56...The information box was updated.
+20-Aug-2013 20:45:56...The information box was updated.
+20-Aug-2013 20:45:56...The boltzano method ended.
+20-Aug-2013 20:46:30...The application was ended.
+20-Aug-2013 20:52:58...The application was started.
+20-Aug-2013 20:53:06...The Newton-Raphson method start to excecute.
+20-Aug-2013 20:53:06...The information box was updated.
+20-Aug-2013 20:53:06...The inserted function is:x^2-2
+20-Aug-2013 20:53:13...The information box was updated.
+20-Aug-2013 20:53:13...The information box was updated.
+20-Aug-2013 20:53:13...The information box was updated.
+20-Aug-2013 20:53:13...The information box was updated.
+20-Aug-2013 20:53:13...The Newton-Raphson method ended.
+20-Aug-2013 20:54:08...The application was ended.
+20-Aug-2013 20:54:40...The application was started.
+20-Aug-2013 20:54:48...The Newton-Raphson method start to excecute.
+20-Aug-2013 20:54:48...The information box was updated.
+20-Aug-2013 20:54:48...The inserted function is:x^2-2
+20-Aug-2013 20:54:55...The information box was updated.
+20-Aug-2013 20:54:56...The information box was updated.
+20-Aug-2013 20:54:56...The information box was updated.
+20-Aug-2013 20:54:56...The information box was updated.
+20-Aug-2013 20:54:56...The Newton-Raphson method ended.
+20-Aug-2013 20:54:59...The application was ended.
+24-Sep-2013 18:45:54...The application was started.
+24-Sep-2013 18:47:20...The application was ended.
+24-Sep-2013 19:05:27...The application was started.
+24-Sep-2013 19:07:14...The boltzano method start to excecute.
+24-Sep-2013 19:07:14...The information box was updated.
+24-Sep-2013 19:07:14...The inserted function is:x^2 - 2
+24-Sep-2013 19:07:21...The information box was updated.
+24-Sep-2013 19:07:21...The information box was updated.
+24-Sep-2013 19:07:21...The information box was updated.
+24-Sep-2013 19:07:21...The boltzano method ended.
+24-Sep-2013 19:09:00...The regula falsi method start to excecute.
+24-Sep-2013 19:09:00...The information box was updated.
+24-Sep-2013 19:09:00...The inserted function is:x^2 - 2
+24-Sep-2013 19:09:05...The information box was updated.
+24-Sep-2013 19:09:05...The information box was updated.
+24-Sep-2013 19:09:05...The information box was updated.
+24-Sep-2013 19:09:05...The regula falsi method ended.
+24-Sep-2013 19:09:11...The regula falsi method start to excecute.
+24-Sep-2013 19:09:11...The information box was updated.
+24-Sep-2013 19:09:11...The inserted function is:x^2 - 1
+24-Sep-2013 19:09:26...The information box was updated.
+24-Sep-2013 19:09:26...The information box was updated.
+24-Sep-2013 19:09:26...The information box was updated.
+24-Sep-2013 19:09:26...The regula falsi method ended.
+24-Sep-2013 19:10:21...The Newton-Raphson method start to excecute.
+24-Sep-2013 19:10:21...The information box was updated.
+24-Sep-2013 19:10:21...The inserted function is:x^2 - 1
+24-Sep-2013 19:10:31...The information box was updated.
+24-Sep-2013 19:10:31...The information box was updated.
+24-Sep-2013 19:10:31...The information box was updated.
+24-Sep-2013 19:10:31...The information box was updated.
+24-Sep-2013 19:10:31...The Newton-Raphson method ended.
+24-Sep-2013 19:12:40...The application was ended.

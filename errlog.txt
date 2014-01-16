@@ -1,0 +1,88 @@
+
+10-Jun-2013 22:06:02...IMSAVE expects a current figure containing an image.
+10-Jun-2013 22:08:00...Function IMSAVE expected its first input argument, h, to be a valid handle to a single graphics object.
+10-Jun-2013 22:08:41...Function IMSAVE expected its first input argument, h, to be a valid handle to a single graphics object.
+10-Jun-2013 22:10:35...IMSAVE expects a current figure containing an image.
+07-Aug-2013 13:30:19...Reference to non-existent field 'editMessage'.
+07-Aug-2013 13:35:20...Reference to non-existent field 'editMessage'.
+07-Aug-2013 13:37:28...Could not POST to URL.
+07-Aug-2013 13:44:26...Could not POST to URL.
+07-Aug-2013 13:47:50...Could not POST to URL.
+12-Aug-2013 14:04:18...Input argument "status" is undefined.
+12-Aug-2013 14:35:27...Too many input arguments.
+12-Aug-2013 14:35:27...Too many input arguments.
+12-Aug-2013 14:36:24...Too many input arguments.
+12-Aug-2013 14:36:24...Too many input arguments.
+12-Aug-2013 14:38:04...Too many input arguments.
+12-Aug-2013 14:38:04...Too many input arguments.
+12-Aug-2013 14:38:11...Too many input arguments.
+12-Aug-2013 14:38:12...Too many input arguments.
+12-Aug-2013 14:42:04...Too many input arguments.
+12-Aug-2013 14:42:04...Too many input arguments.
+12-Aug-2013 14:42:26...Too many input arguments.
+12-Aug-2013 14:42:26...Too many input arguments.
+12-Aug-2013 14:43:30...Too many input arguments.
+12-Aug-2013 14:43:30...Too many input arguments.
+12-Aug-2013 14:45:21...Too many input arguments.
+12-Aug-2013 14:45:21...Too many input arguments.
+12-Aug-2013 14:47:27...Too many input arguments.
+12-Aug-2013 14:47:27...Too many input arguments.
+12-Aug-2013 14:49:12...Too many input arguments.
+12-Aug-2013 14:49:12...Too many input arguments.
+20-Aug-2013 15:07:03...Undefined function or variable 'sdfgsdfg'.
+20-Aug-2013 15:07:03...Too many input arguments.
+20-Aug-2013 15:07:03...Error using ==> webLog
+Too many input arguments.
+
+Error in ==> boltzanoMethod at 73
+        webLog(exc.message, 'error', '#FF0000');
+
+Error in ==> final_thesis>bttnBoltzano_Callback at 101
+            [solution, counts] = boltzanoMethod(hndlAxes, fnct, a, b, tol, mxCount);
+
+Error in ==> gui_mainfcn at 96
+        feval(varargin{:});
+
+Error in ==> final_thesis at 42
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> @(hObject,eventdata)final_thesis('bttnBoltzano_Callback',hObject,eventdata,guidata(hObject))
+20-Aug-2013 15:13:07...Undefined function or variable 'sdfsdf'.
+20-Aug-2013 15:13:07...Error using ==> eval
+Undefined function or variable 'sdfsdf'.
+
+Error in ==> boltzanoMethod at 15
+        fa = eval(strfx);
+
+Error in ==> final_thesis>bttnBoltzano_Callback at 101
+            [solution, counts] = boltzanoMethod(hndlAxes, fnct, a, b, tol, mxCount);
+
+Error in ==> gui_mainfcn at 96
+        feval(varargin{:});
+
+Error in ==> final_thesis at 42
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> @(hObject,eventdata)final_thesis('bttnBoltzano_Callback',hObject,eventdata,guidata(hObject))
+20-Aug-2013 15:13:08...Output argument "solution" (and maybe others) not assigned during call to "K:	est_srcoltzanoMethod.m>boltzanoMethod".
+20-Aug-2013 15:13:08...Output argument "solution" (and maybe others) not assigned during call to "K:	est_srcoltzanoMethod.m>boltzanoMethod".
+
+Error in ==> final_thesis>bttnBoltzano_Callback at 101
+            [solution, counts] = boltzanoMethod(hndlAxes, fnct, a, b, tol, mxCount);
+
+Error in ==> gui_mainfcn at 96
+        feval(varargin{:});
+
+Error in ==> final_thesis at 42
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> @(hObject,eventdata)final_thesis('bttnBoltzano_Callback',hObject,eventdata,guidata(hObject))
+20-Aug-2013 15:19:48...Undefined function or variable 'sdfasdf'.
+20-Aug-2013 15:19:48...getReport method can only accept 'basic' or 'extended' report types.
+20-Aug-2013 15:23:19...Undefined function or variable 'asdfsdf'.
+20-Aug-2013 15:23:19...Error using ==> eval
+Undefined function or variable 'asdfsdf'.
+20-Aug-2013 15:23:20...Output argument "solution" (and maybe others) not assigned during call to "K:	est_srcoltzanoMethod.m>boltzanoMethod".
+20-Aug-2013 15:23:20...Output argument "solution" (and maybe others) not assigned during call to "K:	est_srcoltzanoMethod.m>boltzanoMethod".
+20-Aug-2013 20:41:43...Input argument "fnct" is undefined.
+20-Aug-2013 20:41:43...Input argument "fnct" is undefined.
