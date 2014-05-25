@@ -1,4 +1,5 @@
-function [solution, counts] = boltzanoMethod(hndl, fnct, a, b, tol, maxCount)
+function [solution, counts] = boltzanoMethod(hndl, hndlTable, fnct, a, b, tol, maxCount)
+    global webTraceFlag;
     try
         cla
         strfx = fnct;
@@ -47,6 +48,9 @@ function [solution, counts] = boltzanoMethod(hndl, fnct, a, b, tol, maxCount)
                %x
                %fx
            end
+           oldData = get(hndlTable,'Data');
+           newData = [oldData; {x, fx}];
+           set(hndlTable,'Data',newData);
            count = count + 1;
            if count > maxCount
               break
@@ -71,8 +75,10 @@ function [solution, counts] = boltzanoMethod(hndl, fnct, a, b, tol, maxCount)
         msgbox('An error has occured while executing the Boltzano method. Please try again and send a feedback.', 'Error', 'error');
         errLogger(exc.message);
         errLogger(exc.getReport('basic', 'hyperlinks', 'off'));
-        webLog(exc.message, 'error');
-        webLog(exc.getReport('basic', 'hyperlinks', 'off'), 'error');
+        if webTraceFlag == 1
+            webLog(exc.message, 'error');
+            webLog(exc.getReport('basic', 'hyperlinks', 'off'), 'error');
+        end
         %errLogger(exc.stack);
     end
 end

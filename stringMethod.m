@@ -1,4 +1,5 @@
-function [solution, counts] = regulaFalsiMethod(hndl, fnct, a, b, tol, maxCount)
+function [solution, counts] = stringMethod(hndl, hndlTable, fnct, a, b, tol, maxCount)
+    global webTraceFlag;
     try
         cla
         % Get the function as a string
@@ -63,6 +64,9 @@ function [solution, counts] = regulaFalsiMethod(hndl, fnct, a, b, tol, maxCount)
                %fx
            end
            count = count + 1;
+           oldData = get(hndlTable,'Data');
+           newData = [oldData; {x, fx}];
+           set(hndlTable,'Data',newData);
            if count > maxCount
               break
            end
@@ -87,8 +91,10 @@ function [solution, counts] = regulaFalsiMethod(hndl, fnct, a, b, tol, maxCount)
         msgbox('An error has occured while executing the Regula-Falsi method. Please try again and send a feddback to support.', 'Error', 'error');
         errLogger(exc.message);
         errLogger(exc.getReport('basic', 'hyperlinks', 'off'));
-        webLog(exc.message, 'error');
-        webLog(exc.getReport('basic', 'hyperlinks', 'off'), 'error');
+        if webTraceFlag == 1
+            webLog(exc.message, 'error');
+            webLog(exc.getReport('basic', 'hyperlinks', 'off'), 'error');
+        end
         %errLogger(exc.stack);
     end
 end

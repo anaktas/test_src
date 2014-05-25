@@ -86,3 +86,150 @@ Undefined function or variable 'asdfsdf'.
 20-Aug-2013 15:23:20...Output argument "solution" (and maybe others) not assigned during call to "K:	est_srcoltzanoMethod.m>boltzanoMethod".
 20-Aug-2013 20:41:43...Input argument "fnct" is undefined.
 20-Aug-2013 20:41:43...Input argument "fnct" is undefined.
+29-Mar-2014 22:35:48...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+31-Mar-2014 22:58:38...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+31-Mar-2014 22:58:57...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+31-Mar-2014 22:59:18...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+31-Mar-2014 22:59:27...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+31-Mar-2014 23:09:29...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+31-Mar-2014 23:09:55...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+31-Mar-2014 23:10:06...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+31-Mar-2014 23:15:06...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+31-Mar-2014 23:16:37...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+03-Apr-2014 00:17:59...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+05-Apr-2014 15:01:21...Can't open file "
+06-Apr-2014 00:35:52...Attempt to reference field of non-structure array.
+06-Apr-2014 00:35:52...Attempt to reference field of non-structure array.
+06-Apr-2014 00:35:53...Output argument "solution" (and maybe others) not assigned during call to "K:	est_srcoltzanoMethod.m>boltzanoMethod".
+06-Apr-2014 00:35:53...Output argument "solution" (and maybe others) not assigned during call to "K:	est_srcoltzanoMethod.m>boltzanoMethod".
+06-Apr-2014 00:38:47...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:38:47...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:40:32...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:40:32...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:45:42...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:45:42...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:48:06...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:48:06...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:50:01...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:50:01...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:53:37...Undefined function or variable 'hndlTable'.
+06-Apr-2014 00:53:37...Undefined function or variable 'hndlTable'.
+06-Apr-2014 00:54:44...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:54:44...Reference to non-existent field 'resultTable'.
+06-Apr-2014 00:54:46...Output argument "solution" (and maybe others) not assigned during call to "K:	est_srcoltzanoMethod.m>boltzanoMethod".
+06-Apr-2014 00:54:46...Output argument "solution" (and maybe others) not assigned during call to "K:	est_srcoltzanoMethod.m>boltzanoMethod".
+07-Apr-2014 12:49:10...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:54:48...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:55:02...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:55:03...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:55:03...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:55:09...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:55:09...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:55:10...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:55:10...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:55:26...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:55:37...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:24...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:39...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:39...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:43...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:43...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:44...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:49...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:49...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:49...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:50...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:56:57...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:58:04...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:58:17...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:58:17...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:58:18...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:58:23...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:58:23...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:58:24...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:58:24...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:58:37...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:59:43...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:59:54...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:59:54...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:59:55...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 12:59:59...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:00...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:00...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:01...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:09...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:10...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:29...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:30...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:35...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:35...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:39...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:39...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:44...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:44...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:47...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:47...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:47...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:56...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:56...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:56...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:56...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:00:57...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 13:01:06...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 22:40:16...Inner matrix dimensions must agree.
+07-Apr-2014 22:40:16...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:40:16...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 22:40:17...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+07-Apr-2014 22:42:03...Inner matrix dimensions must agree.
+07-Apr-2014 22:42:03...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:44:33...Inner matrix dimensions must agree.
+07-Apr-2014 22:44:33...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:44:42...Input argument "fnct" is undefined.
+07-Apr-2014 22:44:42...Input argument "fnct" is undefined.
+07-Apr-2014 22:44:58...Inner matrix dimensions must agree.
+07-Apr-2014 22:44:58...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:45:15...Inner matrix dimensions must agree.
+07-Apr-2014 22:45:15...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:46:08...Inner matrix dimensions must agree.
+07-Apr-2014 22:46:08...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:46:29...Inner matrix dimensions must agree.
+07-Apr-2014 22:46:29...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:50:46...Inner matrix dimensions must agree.
+07-Apr-2014 22:50:46...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:52:47...Inner matrix dimensions must agree.
+07-Apr-2014 22:52:47...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:53:37...Inner matrix dimensions must agree.
+07-Apr-2014 22:53:37...Error using ==> mtimes
+Inner matrix dimensions must agree.
+07-Apr-2014 22:53:37...Undefined function or method 'eq' for input arguments of type 'struct'.
+07-Apr-2014 22:53:37...Undefined function or method 'eq' for input arguments of type 'struct'.
+07-Apr-2014 23:27:40...Undefined function or variable 'a'.
+07-Apr-2014 23:27:40...Undefined function or variable 'a'.
+07-Apr-2014 23:27:59...Undefined function or variable 'a'.
+07-Apr-2014 23:27:59...Undefined function or variable 'a'.
+07-Apr-2014 23:29:23...Undefined function or method 'stepNewtonRaphsonMethod' for input arguments of type 'double'.
+07-Apr-2014 23:29:23...Undefined function or method 'stepNewtonRaphsonMethod' for input arguments of type 'double'.
+07-Apr-2014 23:31:43...Undefined function or method 'stepNewtonRaphsonMethod' for input arguments of type 'double'.
+07-Apr-2014 23:31:43...Undefined function or method 'stepNewtonRaphsonMethod' for input arguments of type 'double'.
+07-Apr-2014 23:34:04...Undefined function or variable 'onceA'.
+07-Apr-2014 23:34:04...Undefined function or variable 'onceA'.
+08-Apr-2014 20:02:20...Can't open file "
+08-Apr-2014 21:14:05...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+08-Apr-2014 21:14:05...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+08-Apr-2014 21:14:08...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+08-Apr-2014 21:14:08...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+08-Apr-2014 21:14:09...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+08-Apr-2014 21:14:16...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+08-Apr-2014 21:14:16...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+08-Apr-2014 21:14:17...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+08-Apr-2014 21:14:17...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.
+08-Apr-2014 21:14:17...Error downloading URL. Your network connection may be down or your proxy settings improperly configured.

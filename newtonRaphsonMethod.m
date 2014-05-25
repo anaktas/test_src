@@ -1,4 +1,5 @@
-function [solution, counts, start] = newtonRaphsonMethod(hndl, fnct, a, b, tol, maxCount)
+function [solution, counts, start] = newtonRaphsonMethod(hndl, hndlTable, fnct, a, b, tol, maxCount)
+    global webTraceFlag;
     try
         cla
         % Get the function as a string
@@ -15,7 +16,8 @@ function [solution, counts, start] = newtonRaphsonMethod(hndl, fnct, a, b, tol, 
         drawnow
         pause(1)
         % Pickup a random starting value between the (a, b)
-        x = a + (b - a)*rand(1,1);
+        %x = a + (b - a)*rand(1,1);
+        x = b;
         start = x;
         %temp = x;
         fx = eval(strfx);
@@ -48,6 +50,9 @@ function [solution, counts, start] = newtonRaphsonMethod(hndl, fnct, a, b, tol, 
            pause(1)
            %pause(1)           
            count = count + 1;
+           oldData = get(hndlTable,'Data');
+           newData = [oldData; {x, fx}];
+           set(hndlTable,'Data',newData);
            if count > maxCount
               break
            end
@@ -74,8 +79,10 @@ function [solution, counts, start] = newtonRaphsonMethod(hndl, fnct, a, b, tol, 
         msgbox('An error has occured while executing the Newton-Raphson methode. Please try again and send a feedback to support.', 'Error', 'error');
         errLogger(exc.message);
         errLogger(exc.getReport('basic', 'hyperlinks', 'off'));
-        webLog(exc.message, 'error');
-        webLog(exc.getReport('basic', 'hyperlinks', 'off'), 'error');
+        if webTraceFlag == 1
+            webLog(exc.message, 'error');
+            webLog(exc.getReport('basic', 'hyperlinks', 'off'), 'error');
+        end
         %errLogger(exc.stack);
     end
 end

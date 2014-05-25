@@ -22,7 +22,7 @@ function varargout = final_thesis(varargin)
 
 % Edit the above text to modify the response to help final_thesis
 
-% Last Modified by GUIDE v2.5 20-Aug-2013 19:58:25
+% Last Modified by GUIDE v2.5 08-Apr-2014 20:44:26
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -71,173 +71,6 @@ function varargout = final_thesis_OutputFcn(hObject, eventdata, handles)
 
 % Get default command line output from handles structure
 varargout{1} = handles.output;
-
-
-% --- Executes on button press in bttnBoltzano.
-function bttnBoltzano_Callback(hObject, eventdata, handles)
-% hObject    handle to bttnBoltzano (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-    try
-        % When the excecution starts, we keep a record to our log file
-        trcLogger('The boltzano method start to excecute.');
-        webLog('The boltzano method start to excecute.', 'event');
-        %debug testPlot(h)
-        % get the gui objects
-        hndlAxes = handles.visualizationAxes;
-        hndlInformationBox = handles.editInformation;
-        % Fill the information box for the starting.
-        updateInformationBox(hndlInformationBox, 'Start Boltzano.');
-        % Initialize variables for the boltzanoMethod()
-        fnct = get(handles.functionEdit, 'string');
-        trcLogger(strcat('The inserted function is: ', fnct));
-        webLog(strcat('The inserted function is: ', fnct), 'event');
-        a = str2num(get(handles.editA, 'string'));
-        b = str2num(get(handles.editB, 'string'));
-        tol = str2num(get(handles.editTol, 'string'));
-        mxCount = str2num(get(handles.editCount, 'string'));
-        tol = 10^((-1)*tol);
-        emptyness = isempty(fnct);
-        % Call function
-        if (islogical(size(a) ~= 0)) && (islogical(size(b) ~= 0)) && (islogical(size(tol) ~= 0)) && (islogical(size(mxCount) ~=0)) && (islogical(emptyness ~= 1))
-            [solution, counts] = boltzanoMethod(hndlAxes, fnct, a, b, tol, mxCount);
-        else
-            msgbox('Please fill all the neccesary fields.', 'Warning', 'warn');
-        end  
-        % debugging-start
-        %solution
-        %counts
-        % debugging-end
-        % Fill information box for the ending.
-        % Number of counts
-        txtCounts = strcat('Number of counts:', num2str(counts));
-        updateInformationBox(hndlInformationBox, txtCounts);
-        % Solution
-        txtSolution = strcat('The solution is:', num2str(solution));
-        updateInformationBox(hndlInformationBox, txtSolution);
-        % End
-        updateInformationBox(hndlInformationBox, 'End Boltzano.');
-        % When the excecution ends, we keep a record to our log file
-        trcLogger('The boltzano method ended.');   
-        webLog('The boltzano method start to excecute.', 'event');
-    catch exc
-        msgbox('An error has occured while the button press event. Please try again and send a feedback to support.', 'Error', 'error');
-        errLogger(exc.message);
-        errLogger(exc.getReport('basic', 'hyperlinks', 'off'));
-        webLog(exc.message, 'error');
-        webLog(exc.getReport('basic', 'hyperlinks', 'off'), 'error');
-        %errLogger(exc.stack);
-    end
-
-
-% --- Executes on button press in bttnRegulaFalsi.
-function bttnRegulaFalsi_Callback(hObject, eventdata, handles)
-% hObject    handle to bttnRegulaFalsi (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-    try
-        % When the excecution starts, we keep a record to our log file
-        trcLogger('The regula falsi method start to excecute.');
-        webLog('The regula falsi method start to excecute.', 'event');
-        %debug testPlot(h)
-        % get the gui objects
-        hndlAxes = handles.visualizationAxes;
-        hndlInformationBox = handles.editInformation;
-        % Fill the information box for the starting.
-        updateInformationBox(hndlInformationBox,'Start Regula Falsi.');
-        % Initialize variables for the boltzanoMethod()
-        fnct = get(handles.functionEdit, 'string');
-        trcLogger(strcat('The inserted function is: ', fnct));
-        webLog(strcat('The inserted function is: ', fnct), 'event');
-        a = str2num(get(handles.editA, 'string'));
-        b = str2num(get(handles.editB, 'string'));
-        tol = str2num(get(handles.editTol, 'string'));
-        mxCount = str2num(get(handles.editCount, 'string'));
-        tol = 10^((-1)*tol);
-        emptyness = isempty(fnct);
-        % Call function
-        if (islogical(size(a) ~= 0)) && (islogical(size(b) ~= 0)) && (islogical(size(tol) ~= 0)) && (islogical(size(mxCount) ~=0)) && (islogical(emptyness ~= 1))
-            [solution, counts] = regulaFalsiMethod(hndlAxes, fnct, a, b, tol, mxCount);
-        else
-            msgbox('Please fill all the neccesary fields.', 'Warning', 'warn');
-        end 
-        % Fill information box for the ending.
-        % Number of counts
-        txtCounts = strcat('Number of counts:', num2str(counts));
-        updateInformationBox(hndlInformationBox, txtCounts);
-        % Solution
-        txtSolution = strcat('The solution is:', num2str(solution));
-        updateInformationBox(hndlInformationBox, txtSolution);
-        % End
-        updateInformationBox(hndlInformationBox, 'End Regula Falsi.');
-        % When the excecution ends, we keep a record to our log file
-        trcLogger('The regula falsi method ended.');
-        webLog('The regula falsi method ended.', 'event');
-    catch exc
-        msgbox('An error has occured while the button press event. Please try again and send a feedback to support.', 'Error', 'error');
-        errLogger(exc.message);
-        errLogger(exc.getReport('basic', 'hyperlinks', 'off'));
-        webLog(exc.message, 'error');
-        webLog(exc.getReport('basic', 'hyperlinks', 'off'), 'error');
-        %errLogger(exc.stack);
-    end
-
-
-% --- Executes on button press in bttnNewtonRaphson.
-function bttnNewtonRaphson_Callback(hObject, eventdata, handles)
-% hObject    handle to bttnNewtonRaphson (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-    try
-        % When the excecution starts, we keep a record to our log file
-        trcLogger('The Newton-Raphson method start to excecute.');
-        webLog('The Newton-Raphson method start to excecute.', 'event');
-        %debug testPlot(h)
-        % get the gui objects
-        hndlAxes = handles.visualizationAxes;
-        hndlInformationBox = handles.editInformation;
-        % Fill the information box for the starting.
-        updateInformationBox(hndlInformationBox, 'Start Newton-Raphson.');
-        % Initialize variables for the boltzanoMethod()
-        fnct = get(handles.functionEdit, 'string');
-        trcLogger(strcat('The inserted function is: ', fnct));
-        webLog(strcat('The inserted function is: ', fnct), 'event');
-        a = str2num(get(handles.editA, 'string'));
-        b = str2num(get(handles.editB, 'string'));
-        tol = str2num(get(handles.editTol, 'string'));
-        mxCount = str2num(get(handles.editCount, 'string'));
-        tol = 10^((-1)*tol);
-        emptyness = isempty(fnct);
-        % Call function
-        if (islogical(size(a) ~= 0)) && (islogical(size(b) ~= 0)) && (islogical(size(tol) ~= 0)) && (islogical(size(mxCount) ~=0)) && (islogical(emptyness ~= 1))
-            [solution, counts, start] = newtonRaphsonMethod(hndlAxes, fnct, a, b, tol, mxCount);
-        else
-            msgbox('Please fill all the neccesary fields.', 'Warning', 'warn');
-        end 
-        % Fill information box for the ending.
-        % Starting value
-        txtCounts = strcat('Starting value:', num2str(start));
-        updateInformationBox(hndlInformationBox, txtCounts);
-        % Number of counts
-        txtCounts = strcat('Number of counts:', num2str(counts));
-        updateInformationBox(hndlInformationBox, txtCounts);
-        % Solution
-        txtSolution = strcat('The solution is:', num2str(solution));
-        updateInformationBox(hndlInformationBox, txtSolution);
-        % End
-        updateInformationBox(hndlInformationBox, 'End Newton-Raphson.');
-        % When the excecution ends, we keep a record to our log file
-        trcLogger('The Newton-Raphson method ended.'); 
-        webLog('The Newton-Raphson method ended.', 'event');
-    catch exc
-        msgbox('An error has occured while the button press event. Please try again and send a feedback to support.', 'Error', 'error');
-        errLogger(exc.message);
-        errLogger(exc.getReport('basic', 'hyperlinks', 'off'));
-        webLog(exc.message, 'error');
-        webLog(exc.getReport('basic', 'hyperlinks', 'off'), 'error');
-        %errLogger(exc.stack);
-    end
-
 
 
 function functionEdit_Callback(hObject, eventdata, handles)
@@ -314,20 +147,26 @@ function figure1_CreateFcn(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
     trcLogger('The application was started.');
-    webLog('The application was started.', 'event');
-
+    global methodFlag;
+    global onceFlag;
+    global webTraceFlag;
+    onceFlag = 1;
+    methodFlag = 1;
+    webTraceFlag = 0;
 
 % --- Executes when user attempts to close figure1.
 function figure1_CloseRequestFcn(hObject, eventdata, handles)
 % hObject    handle to figure1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+    global webTraceFlag;
     trcLogger('The application was ended.');
-    webLog('The application was ended.', 'event');
+    if webTraceFlag == 1
+        webLog('The application was ended.', 'event');
+    end
 
 % Hint: delete(hObject) closes the figure
 delete(hObject);
-
 
 
 function editCount_Callback(hObject, eventdata, handles)
@@ -445,14 +284,19 @@ function cleanInformationBttn_Callback(hObject, eventdata, handles)
 % hObject    handle to cleanInformationBttn (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+    global webTraceFlag;
     try
         set(handles.editInformation,'String','');
         trcLogger('The information box has been cleaned.');
-        webLog('The information box has been cleaned.', 'event');
+        if webTraceFlag == 1
+            webLog('The information box has been cleaned.', 'event');
+        end
     catch exc
         msgbox('An error has occured while cleaning the information box. Please try again.', 'Error', 'error');
         errLogger(exc.message);
-        webLog(exc.message, 'error');
+        if webTraceFlag == 1
+            webLog(exc.message, 'error');
+        end
     end
 
 
@@ -470,3 +314,176 @@ function Untitled_4_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
     my_version
+
+
+% --- Executes when selected object is changed in uipanel6.
+function uipanel6_SelectionChangeFcn(hObject, eventdata, handles)
+% hObject    handle to the selected object in uipanel6 
+% eventdata  structure with the following fields (see UIBUTTONGROUP)
+%	EventName: string 'SelectionChanged' (read only)
+%	OldValue: handle of the previously selected object or empty if none was selected
+%	NewValue: handle of the currently selected object
+% handles    structure with handles and user data (see GUIDATA)
+    hndlInformationBox = handles.editInformation;
+    global methodFlag;
+    global onceFlag;
+    global webTraceFlag;
+    switch get(eventdata.NewValue, 'Tag')
+        case 'rdBoltzano'
+            methodFlag = 1;
+            onceFlag = 1;
+            updateInformationBox(hndlInformationBox, 'Boltzano method selected.');
+            trcLogger('Boltzano method selected.');
+            if webTraceFlag == 1
+                webLog('Boltzano method selected.', 'event');
+            end
+        case 'rdString'
+            methodFlag = 2;
+            onceFlag = 1;
+            updateInformationBox(hndlInformationBox, 'String method selected.');
+            trcLogger('String method selected.');
+            if webTraceFlag == 1
+                webLog('String method selected.', 'event');
+            end
+        case 'rdNewtonRaphson'
+            methodFlag = 3;
+            onceFlag = 1;
+            updateInformationBox(hndlInformationBox, 'Newton-Raphson method selected.');
+            trcLogger('Newton-Raphson method selected.');
+            if webTraceFlag == 1
+                webLog('Newton-Raphson method selected.', 'event');
+            end
+    end
+
+
+% --- Executes on button press in radiobutton4.
+function radiobutton4_Callback(hObject, eventdata, handles)
+% hObject    handle to radiobutton4 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of radiobutton4
+
+
+% --- Executes on button press in radiobutton5.
+function radiobutton5_Callback(hObject, eventdata, handles)
+% hObject    handle to radiobutton5 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of radiobutton5
+
+
+% --- Executes on button press in bttnCont.
+function bttnCont_Callback(hObject, eventdata, handles)
+% hObject    handle to bttnCont (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+    nullData = [];
+    set(handles.resultTable, 'Data', nullData)
+    set(handles.bttnCont, 'Enable', 'off');
+    global methodFlag;
+    switch methodFlag
+        case 1
+            execBoltzano(handles);
+            trcLogger('Executing Boltzano method continiously.');
+        case 2
+            execString(handles);
+            trcLogger('Executing String method continiously.');
+        case 3
+            execNewtonRaphson(handles);
+            trcLogger('Executing Newton-Raphson method continiously.');
+    end
+    set(handles.bttnCont, 'Enable', 'on');
+
+
+% --- Executes on button press in bttnStep.
+function bttnStep_Callback(hObject, eventdata, handles)
+% hObject    handle to bttnStep (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+    global onceFlag;
+    if onceFlag == 1
+        nullData = [];
+        set(handles.resultTable, 'Data', nullData)
+    end
+    set(handles.bttnStep, 'Enable', 'off');
+    global methodFlag;
+    switch methodFlag
+        case 1
+            stepExecBoltzano(handles);
+            trcLogger('Executing Boltzano method step-by-step.');
+        case 2
+            stepExecString(handles);
+            trcLogger('Executing String method step-by-step.');
+        case 3
+            stepExecNewtonRaphson(handles);
+            trcLogger('Executing Newton-Raphson method step-by-step.');
+    end
+    set(handles.bttnStep, 'Enable', 'on');
+
+
+% --- Executes when selected object is changed in uipanel7.
+function uipanel7_SelectionChangeFcn(hObject, eventdata, handles)
+% hObject    handle to the selected object in uipanel7 
+% eventdata  structure with the following fields (see UIBUTTONGROUP)
+%	EventName: string 'SelectionChanged' (read only)
+%	OldValue: handle of the previously selected object or empty if none was selected
+%	NewValue: handle of the currently selected object
+% handles    structure with handles and user data (see GUIDATA)
+    hndlInformationBox = handles.editInformation;
+    global webTraceFlag;
+    switch get(eventdata.NewValue, 'Tag')
+        case 'rdCont'
+            set(handles.bttnCont, 'Enable', 'on');
+            set(handles.bttnStep, 'Enable', 'off');
+            set(handles.editCount, 'Enable', 'on');
+            set(handles.editTol, 'Enable', 'on');
+            updateInformationBox(hndlInformationBox, 'Continiously execution mode.');
+            trcLogger('Continiously execution mode.');
+            if webTraceFlag == 1
+                webLog('Continiously execution mode.', 'event');
+            end
+        case 'rdStep'
+            set(handles.bttnStep, 'Enable', 'on');
+            set(handles.bttnCont, 'Enable', 'off');
+            set(handles.editCount, 'Enable', 'off');
+            set(handles.editTol, 'Enable', 'off');
+            updateInformationBox(hndlInformationBox, 'Step-by-step execution mode.');
+            trcLogger('Step-by-step execution mode.');
+            if webTraceFlag == 1
+                webLog('Step-by-step execution mode.', 'event');
+            end
+    end
+    
+
+% --------------------------------------------------------------------
+function Untitled_5_Callback(hObject, eventdata, handles)
+% hObject    handle to Untitled_5 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+    try
+        trcLogger('Saving the execution data.');
+        fileName = uiputfile('*.xls', 'Save as');
+        data = get(handles.resultTable, 'Data');
+        xlswrite(fileName, data);
+        msgbox('The execution has been successful saved.');
+    catch exc
+        msgbox('An error has occured while saving the data. Please try again.', 'Error', 'error');
+        errLogger(exc.message);
+    end
+
+
+% --------------------------------------------------------------------
+function webTrace_Callback(hObject, eventdata, handles)
+% hObject    handle to webTrace (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+    global webTraceFlag;
+    if strcmp(get(handles.webTrace, 'Checked'), 'on')
+        set(handles.webTrace, 'Checked', 'off');
+        webTraceFlag = 0;
+    else
+        set(handles.webTrace, 'Checked', 'on');
+        webTraceFlag = 1;
+    end

@@ -101,13 +101,20 @@ function sendFeedback_Callback(hObject, eventdata, handles)
 % hObject    handle to sendFeedback (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+    global webTraceFlag;
     try
+        % Geting the message from textbox
         message = get(handles.editMessage, 'string');
+        % Sending the message via the sendFeedbackMessage() function
         sendFeedbackMessage(message);
     catch exc
+        % This message will show up, probably when the connection is
+        % offline
         msgbox('An error has occured while pressing the send feedback button. Please try again.', 'Error', 'error');
         errLogger(exc.message);
-        webLog(exc.message, 'error');    
+        if webTraceFlag == 1
+            webLog(exc.message, 'error');    
+        end
     end
 
 
